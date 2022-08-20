@@ -2,34 +2,34 @@
 
 // HOW TO LOG TO CONSOLE
 
-console.log('Hello World');
-console.log(123);
-console.log(true);
-console.log('Hello World');
+// console.log('Hello World');
+// console.log(123);
+// console.log(true);
+// console.log('Hello World');
 
-let greeting = 'Hello';
-console.log(greeting);
+// let greeting = 'Hello';
+// console.log(greeting);
 
-console.log([1,2,3,4,5]);
+// console.log([1,2,3,4,5]);
 
-console.log({a:1, b:2});
+// console.log({a:1, b:2});
 
-console.table({a:1, b:2});
+// console.table({a:1, b:2});
   
-console.error('This is an error');
+// console.error('This is an error');
 
-console.clear();
+// console.clear();
 
-console.warn('This is a warning');
+// console.warn('This is a warning');
 
-console.time('Hello');
-  console.log('Hello World');
-  console.log('Hello World');
-  console.log('Hello World');
-  console.log('Hello World');
-  console.log('Hello World');
-  console.log('Hello World');
-console.timeEnd('Hello')
+// console.time('Hello');
+//   console.log('Hello World');
+//   console.log('Hello World');
+//   console.log('Hello World');
+//   console.log('Hello World');
+//   console.log('Hello World');
+//   console.log('Hello World');
+// console.timeEnd('Hello')
 
 // VAR, CONST, LET
 
@@ -42,21 +42,21 @@ console.timeEnd('Hello')
 
 //INIT VAR
 
-var greet;
-console.log(greet);
-greet = 'hello'
-console.log(greet)
+// var greet;
+// console.log(greet);
+// greet = 'hello'
+// console.log(greet)
 
 //var can include letters, numbers, _ , and $ also cannot start with number
 
 //multi word vars use camelCase
 
-var firstName = 'John'; //camecase
-var first_name = 'sara'; //underscore
-var FirstName = 'tom'; //pascal case 
-var firstName;
+// var firstName = 'John'; //camecase
+// var first_name = 'sara'; //underscore
+// var FirstName = 'tom'; //pascal case 
+// var firstName;
 
-console.clear();
+// console.clear();
 
 // LET
 
@@ -76,20 +76,50 @@ console.clear();
 //you have to assign a value
 //const greeting;
 
-const person = {
-  fName: 'John',
-  age: 30
+// const person = {
+//   fName: 'John',
+//   age: 30
+// }
+
+// person.fName = 'sara';
+// person.age = 32;
+
+// // console.log(person);
+
+// const numbers = [1,2,3,4,5];
+// numbers.push(6);
+
+// console.log(numbers);
+
+
+
+//DATA TYPES
+
+//PRIMITIVE
+
+//String
+const fullName = 'JOhn Doe';
+//Number
+const age =20;
+//Boolean
+const  hasKids = true;
+//Null
+const car = null; //will comeback as object but it is a primitive type.
+//Undefined
+let test;
+//Symbol
+const sym = Symbol()
+
+//REFERENCE TYPES = Objects
+//Array
+const hobbies = ['movies', 'music']
+//Object Literal
+const address = {
+  city: 'Raleigh',
+  state: 'NC'
 }
-
-person.fName = 'sara';
-person.age = 32;
-
-// console.log(person);
-
-const numbers = [1,2,3,4,5];
-numbers.push(6);
-
-console.log(numbers);
-
+const today = new Date();
+console.log(today)
+console.log(typeof today)
 
 
